@@ -10,12 +10,17 @@
 // @ is an alias to /src
 import LineTips from '../components/LineTips'
 import BtnClickButton from '../components/BtnClickButton'
+
 export default {
   name: 'Home',
   components: {
     LineTips,
     BtnClickButton
-  }
+  },
+  methods:{
+      
+  },
+  
 }
 </script>
 <style scoped>
